@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .homepage_products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    /* Set other desired styles for the container element */
+  }
+  
+  .products_one_column {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* Set other desired styles for the column element */
+  }
+  
+  .products_column_container {
+    display: flex;
+    flex-direction: column;
+    /* Set other desired styles for the container element */
+  }
+  
+  .products_img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    /* Set other desired styles for the image element */
+  }
+  
+  .products_img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .products_post_type {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Set other desired styles for the post type element */
+  }
+  
+  .products_content {
+    flex-grow: 1;
+    padding: 20px;
+    /* Set other desired styles for the content element */
+  }
+  
+  .products_description h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    /* Set other desired styles for the heading element */
+  }
+  
+  .products_description p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    /* Set other desired styles for the paragraph element */
+  }
+  
